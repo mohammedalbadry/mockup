@@ -1,0 +1,75 @@
+body{
+    background-color: #0984e3;
+}
+.all{
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+.all .pc{
+    width: 800px;
+    height: 800px;
+    background-image: url("/pc.png");
+    background-repeat: no-repeat;
+}
+.all .pc .pc_view{
+    position: absolute;
+    left: 119px;
+    top: 65px;
+    background-color: red;
+    width: 621px;
+    height: 336px;
+    overflow: hidden;
+}
+.all .pc .pc_view img{
+    width: 100%;
+    height: auto;
+}
+.all .tablet{
+    position: absolute;
+    top: 255px;
+    left: -100px;
+    width: 350px;
+    height: 400px;
+
+    background-image: url("/tablet.png");
+    background-size: cover;
+}
+.all .tablet .tablet_view{
+    position: absolute;
+    left: 104px;
+    top: 73px;
+    background-color: red;
+    width: 192px;
+    height: 255px;
+    overflow: hidden;
+}
+.all .tablet .tablet_view img{
+    width: 100%;
+    height: auto;
+}
+.all .phone{
+    position: absolute;
+    top: 324px;
+    left: 650px;
+    width: 150px;
+    height: 300px;
+
+    background-image: url("/phone.png");
+    background-size: cover;
+}
+.all .phone .phone_view{
+    position: absolute;
+
+    top: 34px;
+    left: 20px;
+    width: 122px;
+    height: 216px;
+
+    background-color: red;
+    overflow: hidden;
+}
+.all .phone .phone_view img{
+    width: 100%;
+    height: auto;
+}
